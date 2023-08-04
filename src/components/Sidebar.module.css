@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: #d46d6d;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    padding: 16px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #555;
+}
+
+/* main-content.css */
+.main-content {
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    height: 100vh;
+    /* This will make the container take the full height of the viewport */
+}
+
+/* Additional styles for the main content */
+.main-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
